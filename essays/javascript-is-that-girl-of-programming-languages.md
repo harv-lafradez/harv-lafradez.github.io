@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "JavaScript is "That Girl" of Programming Languages"
+title: "JavaScript is \"That Girl\" of Programming Languages"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-31
 published: true
