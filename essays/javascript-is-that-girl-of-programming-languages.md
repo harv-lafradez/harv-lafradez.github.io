@@ -11,6 +11,8 @@ labels:
   - Learning
 ---
 
+<img width="200px" class="rounded float-start pe-4" src="https://cms.rootstack.com/sites/default/files/inline-images/javascript%20logo_0.png">
+
 In my limited experience with programming, I truly believe that JavaScript is just *that girl* of programming languages. For those unfamiliar with the terminology, *that girl* is essentially a viral wellness trend that encourages those taking it on to embrace the best version of themselves or, to put it simply, get their life together and look good doing it too. It is essentially a label used to describe a lifestyle that everyone should strive to attain. __*What does this entail about JavaScript*__, you may ask? Well, as someone who just picked it up in the past month, JavaScript is literally *that girl* all the other programming languages just wish they were.
 
 ## Humble beginnings
