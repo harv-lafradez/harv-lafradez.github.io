@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/cropocalypse_icon.png
 title: "Cropocalypse"
 date: 2023
 published: true
