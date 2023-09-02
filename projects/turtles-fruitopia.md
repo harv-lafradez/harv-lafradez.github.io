@@ -1,15 +1,15 @@
 ---
 layout: project
 type: project
-image: img/fish_icon.png
-title: "Loko i'a and Lawa i'a Simulator"
+image: img/turtle.png
+title: "Turtle's Fruitopia"
 date: 2023
 published: true
 labels:
   - Game Development
   - Unity
   - C#
-summary: "A text-based Hawaiian fishing tournament simulator game developed by my team and I in ICS 211 utilizing the Java programming language and object-oriented paradigm."
+summary: "A 3D third-person fruit collection game with low poly graphics I created independently for ICS 369."
 ---
 
 <img class="img-fluid" src="../img/main.png">
