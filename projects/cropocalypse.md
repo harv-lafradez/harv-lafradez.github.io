@@ -19,17 +19,23 @@ Cropocalypse is a 2D top-down survival farming simulator game with pixel graphic
 
 ### Synopsis
 
-After graduating college with a degree in civil engineering, you find yourself with no job opportunities. You decide to restore your family’s abandoned farm and make a living as a farmer. Grow crops and sell them at the town’s market! But as the night falls, you soon realize why the farm was abandoned in the first place.
-
-Follow Fluffy the bunny on a farming journey like no other, literally.
-
 <div class="text-center p-4">
   <img height="200px" src="../img/cropocalypse_1.png" class="img-thumbnail" >
   <img height="200px" src="../img/cropocalypse_2.png" class="img-thumbnail" >
   <img height="200px" src="../img/cropocalypse_3.png" class="img-thumbnail" >
 </div>
 
+After graduating college with a degree in civil engineering, you find yourself with no job opportunities. You decide to restore your family’s abandoned farm and make a living as a farmer. Grow crops and sell them at the town’s market! But as the night falls, you soon realize why the farm was abandoned in the first place.
+
+Follow Fluffy the bunny on a farming journey like no other, literally.
+
 ### The fruits of my labor
+
+<div class="text-center p-4">
+  <img height="200px" src="https://share.natebeaty.com//aseprite/aseprite.png" class="img-thumbnail" >
+  <img height="200px" src="../img/cropocalypse_sprites.png" class="img-thumbnail" >
+  <img height="200px" src="../img/cropocalypse_sprites2.png" class="img-thumbnail" >
+</div>
 
 For this project I took on the role of the game artist and held the responsibility of creating all the asset art, implementing the animations, designing the user-interface and programming a good portion of the scripts. Throughout this project I was working outside of my comfort zone as I am not usually the artistic type. I learned to utilize Aseprite, which is a premier pixel art software that I had no experience using prior, and picked up basic color and animation theory in order to ensure that our game looked presentable aesthetics-wise. I had to be the versatile in an especially slim amount of time during this project and it was a challenging yet lucrative experience as I learned so much.
 
