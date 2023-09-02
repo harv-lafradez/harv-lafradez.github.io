@@ -19,8 +19,8 @@ My team and I created a text-based Hawaiian fishing tournament simulator game du
 
 Loko i'a and Lawa i'a are the Hawaiian words for fish pond and fishing respectively. In this text-based Hawaiian fishing tournament simulator, the goal is to catch the largest cumulative fish compared to your competitor. The game utilizes data from real Hawaiian fish families that exist and are caught locally.
 
-<img width="200px" src="../img/gameplay.png">
-<img width="200px" src="../img/gameplay2.png">
+<img width="400px" src="../img/gameplay.png">
+<img width="400px" src="../img/gameplay2.png">
 
 ## Contributions
 
