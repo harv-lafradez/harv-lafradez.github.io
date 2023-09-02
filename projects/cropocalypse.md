@@ -28,3 +28,11 @@ Follow Fluffy the bunny on a farming journey like no other, literally.
   <img height="200px" src="../img/cropocalypse_2.png" class="img-thumbnail" >
   <img height="200px" src="../img/cropocalypse_3.png" class="img-thumbnail" >
 </div>
+
+### The fruits of my labor
+
+For this project I took on the role of the game artist and held the responsibility of creating all the asset art, implementing the animations, designing the user-interface and programming a good portion of the scripts. Throughout this project I was working outside of my comfort zone as I am not usually the artistic type. I learned to utilize Aseprite, which is a premier pixel art software that I had no experience using prior, and picked up basic color and animation theory in order to ensure that our game looked presentable aesthetics-wise. I had to be the versatile in an especially slim amount of time during this project and it was a challenging yet lucrative experience as I learned so much.
+
+Aside from learning Unity game engine and to program in C#, I learned how to collaborate with a team of like-minded individuals of varying skills and backgrounds. It was especially enjoyable to have the opportunity to have consistent input and feedback from others as we all were learning how to navigate software engineering through the medium of game development and design. I found it amazing how through game development one can bridge the gap between art and programming as I saw my art come to life by the final product.
+
+Cropocalypse will always have a special place in my heart as one of the greater projects to come out of my courses that taught me how adapt in a collaborative setting and realize my potential as an aspiring game developer.
