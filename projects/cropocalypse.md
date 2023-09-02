@@ -24,7 +24,7 @@ After graduating college with a degree in civil engineering, you find yourself w
 Follow Fluffy the bunny on a farming journey like no other, literally.
 
 <div class="text-center p-4">
-  <img height="200px" src="../img/cropocalypse_game_1.png" class="img-thumbnail" >
-  <img height="200px" src="../img/cropocalypse_game_2.png" class="img-thumbnail" >
-  <img height="200px" src="../img/cropocalypse_game_3.png" class="img-thumbnail" >
+  <img height="200px" src="../img/cropocalypse_1.png" class="img-thumbnail" >
+  <img height="200px" src="../img/cropocalypse_2.png" class="img-thumbnail" >
+  <img height="200px" src="../img/cropocalypse_3.png" class="img-thumbnail" >
 </div>
