@@ -11,29 +11,69 @@ labels:
 summary: "A text-based Hawaiian fishing tournament simulator game developed by my team and I in ICS 211 utilizing the Java programming language and object-oriented paradigm."
 ---
 
-<img class="img-fluid" src="../img/cropocalypse_title.png">
+<img class="img-fluid" src="../img/main.png">
 
-Cropocalypse is a 2D top-down survival farming simulator game with pixel graphics developed by my team and I in ICS 369 utilizing Unity game engine during the spring 2023 semester. The game draws inspiration from well-known indie titles similar to "Stardew Valley" and "Enter the Gungeon" aiming to combine two starkly different motifs: peaceful farming simulator and hectic bullet hell in a quirky and cute way.
+My team and I created a text-based Hawaiian fishing tournament simulator game during the spring semester of ICS 211. This collaborative effort compiled a semester's worth of learning object-oriented programming and intermediate data structures all using the Java programming language.
 
 ### Synopsis
 
-<div class="text-center p-4">
-  <img height="200px" src="../img/cropocalypse_1.png" class="img-thumbnail" >
-  <img height="200px" src="../img/cropocalypse_2.png" class="img-thumbnail" >
-  <img height="200px" src="../img/cropocalypse_3.png" class="img-thumbnail" >
-</div>
+Loko i'a and Lawa i'a are the Hawaiian words for fish pond and fishing respectively. In this text-based Hawaiian fishing tournament simulator, the goal is to catch the largest cumulative fish compared to your competitor. The game utilizes data from real Hawaiian fish families that exist and are caught locally.
 
-After graduating college with a degree in civil engineering, you find yourself with no job opportunities. You decide to restore your family’s abandoned farm and make a living as a farmer. Grow crops and sell them at the town’s market! But as the night falls, you soon realize why the farm was abandoned in the first place.
+<img width="200px" src="../img/gameplay.png">
+<img width="200px" src="../img/gameplay2.png">
 
-Follow Fluffy the bunny on a farming journey like no other, literally.
+## Contributions
 
-### The fruits of my labor
+<img height="200px" src="https://user-images.githubusercontent.com/279775/165010522-62a8f40d-7a9e-4496-9bb8-0686a603844a.png">
 
-<img height="200px" src="../img/cropocalypse_sprites.png">
-<img height="200px" src="../img/cropocalypse_sprites2.png">
+Throughout this project, I was responsible mainly for implementing the code for the various fish families and the hierarchies of inheritance. I have provided a code snippet of the 'Ama'ama fish family class I wrote:
 
-For this project I took on the role of the game artist and held the responsibility of creating all the asset art, implementing the animations, designing the user-interface and programming a good portion of the scripts. Throughout this project I was working outside of my comfort zone as I am not usually the artistic type. I learned to utilize Aseprite, which is a premier pixel art software that I had no experience using prior, and picked up basic color and animation theory in order to ensure that our game looked presentable aesthetics-wise. I had to be the versatile in an especially slim amount of time during this project and it was a challenging yet lucrative experience as I learned so much.
+```
+/**
+* 'Ama'ama fish object class.
+* Third type version of 'Ama'ama fish family.
+* @author Harvey Lafradez
+* @since 02/23/2022
+*/
 
-Aside from learning Unity game engine and to program in C#, I learned how to collaborate with a team of like-minded individuals of varying skills and backgrounds. It was especially enjoyable to have the opportunity to have consistent input and feedback from others as we all were learning how to navigate software engineering through the medium of game development and design. I found it amazing how through game development one can bridge the gap between art and programming as I saw my art come to life by the final product.
+//class declaration header
+public class Ama_ama extends Kahaha {
+   
+   // Constants for this fish.
+   // protected will be inherited by subclasses unless replaced
 
-Cropocalypse will always have a special place in my heart as one of the greater projects to come out of my courses that taught me how adapt in a collaborative setting and realize my potential as an aspiring game developer.
+   /** constant maximum length for this Ia. 
+   * Private because not inherited.
+   */
+   private static final double AMA_AMA_MAX_LENGTH = 12.0;
+   
+   /** constant minimum length for this Ia. 
+   * Private because not inherited.
+   */
+   private static final double AMA_AMA_MIN_LENGTH = 8.0;
+   
+   //========= constructors =========
+   
+   /**
+   * Constructor for making 'Ama'ama with random length. 
+   * uses I_a superclass constructor
+   * uses dietItems array from super class
+   * randomly sets length within allowed values after calling constructor.
+   * randomly sets sex to either male or female after calling constructor.
+   * @throws FishSizeException if length exceeds maxLength or is less than minLength
+   * Must send minLength through as a temp length or throws exception
+   */
+   public Ama_ama() {
+      super("'Ama'ama", AMA_AMA_MAX_LENGTH, AMA_AMA_MIN_LENGTH, 
+         AMA_AMA_MIN_LENGTH, (AMA_AMA_MIN_LENGTH * 2), 
+            DIET_ITEMS,  "silver", "silver", "male or female"); 
+      //method is in superclass but will use max, min length set above
+      this.initLength();
+      
+      //set random sex
+      this.initSex();
+   }
+...
+```
+
+Looking back on my code, I realized how meticulous I was when it came to coding style and best practices as I wanted to ensure that my code was easily understood by my team members as well as other developers. I had included a copious amount of comments throughout my portions of the program and it reflects how serious I was about learning Java and applying it to a small-scale software engineering project. This project had essentially taught me to not only apply the skills I've learned throughout the semester but to also demonstrate good organizational skills as the workload was a bit overwhelming at times. During that semester we were also introduced to GitHub and version control practices and I made sure to utilize those in order to lead my team towards success.
