@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cropocalypse_icon.png
+image: img/fish_icon.png
 title: "Loko i'a and Lawa i'a Simulator"
 date: 2022
 published: true
