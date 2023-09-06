@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="https://fhntoday.com/wp-content/uploads/2019/03/smarty-900x600.png">
+<img width="600px" class="rounded float-start pe-4" src="https://fhntoday.com/wp-content/uploads/2019/03/smarty-900x600.png">
 
 ## Is there such thing as a stupid question?
 
