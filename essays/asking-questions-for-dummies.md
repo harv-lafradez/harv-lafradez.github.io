@@ -23,12 +23,14 @@ The ability to ask the right questions is one thing, but as growing programmers,
 
 A large community of programmers like ourselves have utilized this resource to ask their burning questions. Though, as you'll see in the upcoming examples of questions, one is desirable and the other is, well, not so much.
 
-Let's take a look at this user's inquiry about the equivalence operators of JavaScript:
+Let's take a look at this user's inquiry about the comparison operators of JavaScript:
 
 ```
 Q: Which equals operator (== vs ===) should be used in JavaScript comparisons?
 
-I'm using JSLint to go through JavaScript, and it's returning many suggestions to replace == (two equals signs) with === (three equals signs) when doing things like comparing idSele_UNVEHtype.value.length == 0 inside of an if statement.
+I'm using JSLint to go through JavaScript, and it's returning many suggestions to
+replace == (two equals signs) with === (three equals signs) when doing things like
+comparing idSele_UNVEHtype.value.length == 0 inside of an if statement.
 
 Is there a performance benefit to replacing == with ===?
 
@@ -37,31 +39,20 @@ Any performance improvement would be welcomed as many comparison operators exist
 If no type conversion takes place, would there be a performance gain over ==?
 ```
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+As we can observe from this user's question, the heading itself proves to be useful for other programmers that may have the same inquiry as it is concise and uses keywords such as "equals operator" and "(== vs ===)" that novice programmers learning JavaScript are most likely to type into a search engine. This user ensures that they preface their question with a bit of context that elaborates on their thinking where in this case, this user includes their usage of JSLint (which is essentially a JavaScript syntax or style checker) and how its suggestions inspired their question whilst also providing an example. This user also follows up their initial question with other thought-provoking and discussion-encouraging inquiries that can prompt other more experienced users to engage in providing further insight beyond the scope of the simplicity of the original user's question itself. 
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+A: The strict equality operator (===) behaves identically to the abstract equality operator (==)
+except no type conversion is done, and the types must be the same to be considered equal.
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
+The == operator will compare for equality after doing any necessary type conversions.
+The === operator will not do the conversion, so if two values are not the same type === will simply return false.
+Both are equally quick.
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+The user received 48 helpful responses that provided more insight than otherwise necessary, which is indeed a good thing, where other users gave further examples including diagrams that illustrated the technical nuances that lie within the original question. The ability to get help with a question whilst also helping others gain a better understanding with that same question is what lends itself to a smart question.
 
-## The foolproof way to get ignored.
+## The notorious "dumb question"
 
 While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
 
