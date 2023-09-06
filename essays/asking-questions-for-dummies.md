@@ -15,42 +15,26 @@ labels:
 
 ## Getting started
 
-We've all been there, wanting to ask a question in class without sounding stupid, but hesitating because we fear judgment. More often than not it is through those moments that we truly ponder, "is this a dumb question?". There can only be one of two outcomes when dealing with this scenario, either your question is actually relevant and was also a question everyone else had or your question was a dumb question and now you've embarrassed yourself in front of everyone. The latter is obviously undesirable, but have no fear! Asking the right questions does not have to be rocket science, and it sure does not have to be humiliating either.
+We've all been there, wanting to ask a question in class without sounding stupid, but hesitating because we fear judgment. More often than not, it is through those moments that we truly ponder, "is this a dumb question?". There can only be one of two outcomes when dealing with this scenario, either your question is actually relevant and was also a question everyone else had, or your question was a dumb question and now you've embarrassed yourself in front of everyone. The latter is obviously undesirable, but have no fear! Asking the right questions does not have to be rocket science, and it sure does not have to be humiliating either.
 
-## What’s a smart question?
+## Let's learn by example
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+The ability to ask the right questions is one thing, but as growing programmers, learning to leverage online forums in a way that is helpful and not hurtful is paramount. A most notable tool at our disposal is StackOverflow, which is the premier online platform and community for programmers and developers, serving as a question-and-answer forum where people can ask technical questions related to programming, software development, and various technology-related topics.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+A large community of programmers like ourselves have utilized this resource to ask their burning questions. Though, as you'll see in the upcoming examples of questions, one is desirable and the other is, well, not so much.
+
+Let's take a look at this user's inquiry about the equivalence operators of JavaScript:
 
 ```
-Q: python date of the previous month
+Q: Which equals operator (== vs ===) should be used in JavaScript comparisons?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+I'm using JSLint to go through JavaScript, and it's returning many suggestions to replace == (two equals signs) with === (three equals signs) when doing things like comparing idSele_UNVEHtype.value.length == 0 inside of an if statement.
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+Is there a performance benefit to replacing == with ===?
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+Any performance improvement would be welcomed as many comparison operators exist.
 
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+If no type conversion takes place, would there be a performance gain over ==?
 ```
 
 While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
