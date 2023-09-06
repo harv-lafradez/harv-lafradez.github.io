@@ -72,4 +72,4 @@ Without having to look further into this user's question, just from the header a
 
 ## Conclusion
 
-So now we know what smart and un-smart (not necessarily "dumb") questions look like. The key takeaways that w
+So now we know what smart and un-smart (not necessarily "dumb") questions look like. The key takeaways are to always make sure that we ask questions not solely to get an answer, but to help others whilst also getting an answer. It is always important to remember that learning takes a village, or a community, and selfishness through asking un-smart questions can do more harm than good. 
