@@ -50,25 +50,26 @@ The === operator will not do the conversion, so if two values are not the same t
 Both are equally quick.
 ```
  
-The user received 48 helpful responses that provided more insight than otherwise necessary, which is indeed a good thing, where other users gave further examples including diagrams that illustrated the technical nuances that lie within the original question. The ability to get help with a question whilst also helping others gain a better understanding with that same question is what lends itself to a smart question.
+The user received 48 helpful responses that provided more insight than otherwise necessary, which is indeed a good thing, where other users gave further examples including diagrams that illustrated the technical nuances that lie within the original question. The ability to get help with a question whilst also helping others gain a better understanding with that same question is what lends itself to an especially smart question.
 
 ## The notorious "dumb question"
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Now the next time you ask yourself, "is my question dumb?", consider this next example of a question which isn't necessarily "dumb", but more so unhelpful:
 
 ```
-Q: Facebook Desktop Notifier
+Q: Calculate the percentage of students who submitted homework late
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+I have a Table of homework submission hours from multiple schools.
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+The table:
+--------------------------------------------------------
+|Student | School | homework submission hours (timestamp)|
+--------------------------------------------------------
+How can I get the percentage of students that took them more than an hour to submit homework for each school?
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+Without having to look further into this user's question, just from the header alone we know that this is a homework problem, which is incredibly advised against to post on discussion forums of any kind. Judging by this user's question, there is no sign of prior research or attempts at solving the problem before posting and is reflected by the one singular response this user received to which does not seem to answer the question entirely due to its vagueness. It is questions like these that do not illicit productive discussions and obviously the intended solution for the asker. Un-smart questions will most likely be ignored, answered incorrectly or are met with contempt.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+So now we know what smart and un-smart (not necessarily "dumb") questions look like. The key takeaways that w
