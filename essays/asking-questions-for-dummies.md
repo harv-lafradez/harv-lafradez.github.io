@@ -1,21 +1,21 @@
 ---
 layout: essay
 type: essay
-title: "Dumb Questions Do Exist"
+title: "Asking Questions For Dummies"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-07
-published: false
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="https://fhntoday.com/wp-content/uploads/2019/03/smarty-900x600.png">
+<img width="500px" class="rounded float-start pe-4" src="https://3.bp.blogspot.com/-UN8Awz7zrNk/XIjLnX7El-I/AAAAAAAABvc/nfLh4oi7hoMklfu2CUZhXGWgQ8JMsXNWQCLcBGAs/s1600/mtbunnies250c.png">
 
-## Is there such thing as a stupid question?
+## Getting started
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+We've all been there, wanting to ask a question in class without sounding stupid, but hesitating because we fear judgment. More often than not it is through those moments that we truly ponder, "is this a dumb question?". There can only be one of two outcomes when dealing with this scenario, either your question is actually relevant and was also a question everyone else had or your question was a dumb question and now you've embarrassed yourself in front of everyone. The latter is obviously undesirable, but have no fear! Asking the right questions does not have to be rocket science, and it sure does not have to be humiliating either.
 
 ## What’s a smart question?
 
