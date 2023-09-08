@@ -41,6 +41,8 @@ If no type conversion takes place, would there be a performance gain over ==?
 
 As we can observe from this user's question, the heading itself proves to be useful for other programmers that may have the same inquiry as it is concise and uses keywords such as "equals operator" and "(== vs ===)" that novice programmers learning JavaScript are most likely to type into a search engine. This user ensures that they preface their question with a bit of context that elaborates on their thinking where in this case, this user includes their usage of JSLint (which is essentially a JavaScript syntax or style checker) and how its suggestions inspired their question whilst also providing an example. This user also follows up their initial question with other thought-provoking and discussion-encouraging inquiries that can prompt other more experienced users to engage in providing further insight beyond the scope of the simplicity of the original user's question itself. 
 
+[This is the link to the question on StackOverflow.](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons)
+
 ```
 A: The strict equality operator (===) behaves identically to the abstract equality operator (==)
 except no type conversion is done, and the types must be the same to be considered equal.
@@ -69,6 +71,8 @@ How can I get the percentage of students that took them more than an hour to sub
 ```
 
 Without having to look further into this user's question, just from the header alone we know that this is a homework problem, which is incredibly advised against to post on discussion forums of any kind. Judging by this user's question, there is no sign of prior research or attempts at solving the problem before posting and is reflected by the one singular response this user received to which does not seem to answer the question entirely due to its vagueness. It is questions like these that do not illicit productive discussions and obviously the intended solution for the asker. Un-smart questions will most likely be ignored, answered incorrectly or are met with contempt.
+
+[This is the link to the question on StackOverflow.](https://stackoverflow.com/questions/66262550/calculate-the-percentage-of-students-who-submitted-homework-late)
 
 ## Conclusion
 
