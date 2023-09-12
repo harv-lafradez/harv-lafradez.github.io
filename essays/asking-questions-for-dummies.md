@@ -70,7 +70,7 @@ The table:
 How can I get the percentage of students that took them more than an hour to submit homework for each school?
 ```
 
-Without having to look further into this user's question, just from the header alone we know that this is a homework problem, which is incredibly advised against to post on discussion forums of any kind. Judging by this user's question, there is no sign of prior research or attempts at solving the problem before posting and is reflected by the one singular response this user received to which does not seem to answer the question entirely due to its vagueness. It is questions like these that do not illicit productive discussions and obviously the intended solution for the asker. Un-smart questions will most likely be ignored, answered incorrectly or are met with contempt.
+Without having to look further into this user's question, just from the header alone we know that this is a homework problem, which is incredibly advised against to post on discussion forums of any kind without, at the very least, showing any effort at attempting the problem beforehand. Judging by this user's question, there is no sign of prior research or attempts at solving the problem before posting and is reflected by the one singular response this user received to which does not seem to answer the question entirely due to its vagueness. It is questions like these that do not illicit productive discussions and obviously the intended solution for the asker. Un-smart questions will most likely be ignored, answered incorrectly or are met with contempt.
 
 [This is the link to the question on StackOverflow.](https://stackoverflow.com/questions/66262550/calculate-the-percentage-of-students-who-submitted-homework-late)
 
