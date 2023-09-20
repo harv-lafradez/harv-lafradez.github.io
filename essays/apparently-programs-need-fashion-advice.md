@@ -11,7 +11,7 @@ labels:
   - Programming Style Guide
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="https://3.bp.blogspot.com/-UN8Awz7zrNk/XIjLnX7El-I/AAAAAAAABvc/nfLh4oi7hoMklfu2CUZhXGWgQ8JMsXNWQCLcBGAs/s1600/mtbunnies250c.png">
+<img width="500px" class="rounded float-start pe-4" src="https://cdn-media-1.freecodecamp.org/images/1*bNP7DQt6uNDUQ5VLkrm2sQ.png">
 
 ## Getting started
 
