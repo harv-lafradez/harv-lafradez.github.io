@@ -19,7 +19,7 @@ If learning to create webpages using both HTML and CSS is like learning to drive
 
 ## Driving without a license
 
-
+<img width="500px" class="rounded float-start pe-4" src="https://cdn.discordapp.com/attachments/748739346277990452/1159026886723256340/real1.png?ex=652f86e7&is=651d11e7&hm=63db23a060e49973cbf0d46ff35aba395d2dc745eab7cb3a94d62469f9d76da9&"> | <img width="500px" class="rounded float-start pe-4" src="https://cdn.discordapp.com/attachments/748739346277990452/1159027029069545533/mine1.png?ex=652f8709&is=651d1209&hm=6144d228b7eb6a812d4caa2d067dc18593a94d5710c32dfc0c8fa36aa46ba3f6&">
 
 ## The road to success
 
