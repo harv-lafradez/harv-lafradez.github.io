@@ -11,7 +11,7 @@ labels:
   - Web Development
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="https://cdn.dribbble.com/users/595/screenshots/14417863/bootstrap-new-logo.png">
+<img width="200px" class="rounded float-start pe-4" src="https://cdn.dribbble.com/users/595/screenshots/14417863/bootstrap-new-logo.png">
 
 ## From joyride to roller coaster
 
