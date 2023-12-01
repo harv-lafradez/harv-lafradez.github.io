@@ -22,6 +22,8 @@ In the realm of software development, our code sets off on an epic journey simil
 
 One may wonder, what are design patterns? Think of them as the cool weapons and armor our characters can equip on their quests. They are the battle-ready tools for upcoming challenges, essentially the wisdom one seeks from the old and the wise, or the shiny loot one collects as bounty. Take the Singleton pattern for instance, it is equivalent to the legendary Excalibur, a sword fit only for the worthy, making sure only one class instance rules throughout the application, similar to how the sword can only be wielded by King Arthur, or the chosen one himself. The developers rely on the Singleton pattern to ensure that too many instances are not made, just as our hero trusts the almighty Excalibur.
 
+This would be my weapon of choice, as I have used the Singleton sword in the code I worked on while creating tests for the final project. I created a Singleton class for the credentials of a test user, ensuring that duplicate instances are not created and that the single credentials class is utilized throughout each iteration of a test.
+
 #### The Observer's grimoire
 
 As our band of developers continue on in their quest for glory, they encounter the *Horde of Unpredictability*, a challenging obstacle that requires adaptability. This is where an item suitable for the task such as the Observer pattern comes into play. It is a flexible spellbook with spells that allow our code to notify subscribers of the occurrences of events, similar to how a mage would fling endless spells across the battlefield. The Observer pattern ensures that changes in one part of the code echo through multiple components involved, keeping things in sync.
