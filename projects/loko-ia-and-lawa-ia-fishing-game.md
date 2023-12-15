@@ -4,7 +4,7 @@ type: project
 image: img/fish_icon.png
 title: "Loko i'a and Lawa i'a Simulator"
 date: 2022
-published: true
+published: false
 labels:
   - Game Development
   - Java
