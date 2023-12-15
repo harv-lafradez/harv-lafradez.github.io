@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Harvey Lafradez",
+    "label": "Undergraduate Student",
+    "picture": "https://github.com/harv-lafradez.png",
+    "email": "hdl3@hawaii.edu",
+    "phone": "808-256-1398",
+    "website": "https://harv-lafradez.github.io",
+    "summary": "I am studying for a B.A. in Information and Computer Sciences in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
+    "location": { "address": "1524 Meyers St.", "postalCode": "96819", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "harv-lafradez", "url": "http://github.com/harv-lafradez" },
+      { "network": "linkedin", "username": "harvey-lafradez", "url": "http://linkedin.com/in/harvey-lafradez-34aab5289" }
+    ]
+  },
+  "interests": [
+    { "name": "Game Development and Design" },
+    { "name": "Front-End Web Development" },
+    { "name": "Software Development and Design" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "C#", "HTML5", "CSS3", "Bootstrap 5", "React", "Meteor" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "IntelliJ IDEA", "Unity", "Adobe Creative Suite", "Microsoft 365" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Information and Computer Sciences (expected Spring, 2024)",
+      "studyType": "B.A.",
+      "startDate": "2020-08-24",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Ilokano Language and Literature Program",
+      "position": "Student Assistant/Web Developer",
+      "website": "http://manoa.hawaii.edu/ilokano/",
+      "startDate": "2023-08-21",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Assist in processing office documents and paperwork",
+        "Maintain, update, and oversee official college website",
+        "Assist in research projects pertaining to the Ilocos and Ilokanos in the diaspora"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Timpuyog",
+      "website": "https://manoa.hawaii.edu/rio/timpuyog/Home.html",
+      "position": "Web Administrator",
+      "startDate": "2023-08-21",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Update and maintain any and all Timpuyog related websites"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

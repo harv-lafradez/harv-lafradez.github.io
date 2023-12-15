@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Turtle's Fruitopia | Harvey Lafradez | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/harv-lafradez.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Harvey Lafradez | Professional Portfolio">
+    <meta property="og:url" content="https://harv-lafradez.github.io/projects/turtles-fruitopia.html">
+    <meta property="og:title" content="Turtle's Fruitopia | Harvey Lafradez | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/harv-lafradez.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Turtle's Fruitopia | Harvey Lafradez | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Harvey Lafradez</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Turtle's Fruitopia</h1>
+ <p><img class="img-fluid" src="../img/turtle.png" /></p>
+
+<p>Turtle’s Fruitopia is a quirky indie fruit collection game I developed two months into learning Unity game engine during the spring semester of ICS 369. During the time I was taking the course, I was obsessed with videos of turtles eating fruit and thus, came forth my first Unity game.</p>
+
+<h3 id="the-beginnings-of-my-game-developer-journey">The beginnings of my game developer journey</h3>
+
+<p><img width="200px" src="../img/peaches.png" />
+<img width="200px" src="../img/bird.png" /></p>
+
+<p>At the time I was developing “Turtle’s Fruitopia”, I had freshly learned how to program in C# and utilize the free community-created assets in Unity. Although all of the art and models included in my game were not originally mine, I programmed the entirety of the game object implementations and functionality. I have provided a snippet of the code that I wrote which controlled the collection system on game object collisions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public class Fruits : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        PlayerInventory playerInventory = other.GetComponent&lt;PlayerInventory&gt;();
+
+        if (playerInventory != null) // colliding with the player
+        {
+            
+            // check which fruit is collided with
+            if (this.gameObject.tag.Equals("Banana"))
+            {
+                playerInventory.FruitCollected(1); // pass in integer 1 for bananas
+                gameObject.SetActive(false);
+            }
+            else if (this.gameObject.tag.Equals("Apple"))
+            {
+                playerInventory.FruitCollected(2); // pass in integer 2 for apples
+                gameObject.SetActive(false);
+            }
+            else if (this.gameObject.tag.Equals("Strawberry"))
+            {
+                playerInventory.FruitCollected(3); // pass in integer 3 for strawberries
+                gameObject.SetActive(false);
+            }
+            else if (this.gameObject.tag.Equals("Crow"))
+            {
+                playerInventory.FruitCollected(4); // pass in integer 4 for crows
+            }
+            else if (this.gameObject.tag.Equals("Peach"))
+            {
+                playerInventory.FruitCollected(5); // pass in integer 5 for strawberries
+                gameObject.SetActive(false);
+            }
+        } 
+    }
+}
+</code></pre></div></div>
+
+<p>I was especially proud of this code as it demonstrated how I learned to utilize object-oriented programming from prior courses to implement a collection system that built off of Unity game objects and collision or trigger events. Through this project I had the means of realizing that programming can be made fun in the context of game development. Having been able to work independently, I also learned to value the input and feedback from others in a collaborative setting as all I had to go off of when working on my own were my own thoughts. Nonetheless, I ended up creating a cute project that I still am proud to call my first Unity game to this day.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
