@@ -4,7 +4,7 @@ type: essay
 title: "Dungeons & Designs"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-30
-published: true
+published: false
 labels:
   - Design Patterns
   - Software Engineering

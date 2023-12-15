@@ -21,11 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "C#", "HTML5", "CSS3" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "C#", "HTML5", "CSS3", "Bootstrap 5", "React", "Meteor" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "Unity", "Adobe Creative Suite", "Microsoft 365" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "IntelliJ IDEA", "Unity", "Adobe Creative Suite", "Microsoft 365" ]
     }
   ],
   "education": [

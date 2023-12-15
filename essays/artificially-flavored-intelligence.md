@@ -4,7 +4,7 @@ type: essay
 title: "Artificially Flavored Intelligence"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-21
-published: true
+published: false
 labels:
   - Artificial Intelligence
   - ChatGPT
